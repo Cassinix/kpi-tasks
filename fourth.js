@@ -24,7 +24,6 @@ const fn = i => cb => setTimeout(() => {
     cb(i);
 }, 1000)
 
-// here was a bug in task
 parallel([
     fn(1),
   fn(2),
