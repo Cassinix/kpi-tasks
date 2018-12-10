@@ -5,6 +5,7 @@ function delay(ms) {
       console.log('resolved');
     }, ms);
   });
+}
   
  const promise = delay(2000);
  promise.then(() => console.log(1));
