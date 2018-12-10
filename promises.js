@@ -11,3 +11,9 @@ function delay(ms) {
  promise.then(() => console.log(2));
  promise.then(() => console.log(3));
   
+ /*
+ ожидание pending
+ промис решен resolved
+ промис отклонен rejected
+ */
+  
