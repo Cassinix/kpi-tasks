@@ -4,7 +4,7 @@ let isMomHappy = false;
 let willIGetNewPhone = new Promise(
     function (resolve, reject) {
         if (isMomHappy) {
-            var phone = {
+            let phone = {
                 brand: 'Samsung',
                 color: 'black'
             };
