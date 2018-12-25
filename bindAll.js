@@ -31,3 +31,4 @@ function Developer(skill) {
 let john = new Developer('Ruby');
 let func = john.says;
 func();// undefined rocks!
+
