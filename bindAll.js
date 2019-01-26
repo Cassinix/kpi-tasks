@@ -11,7 +11,7 @@ func.apply('Internet');
 let func = function beautiful(){
   alert(this + ' is beautiful');
 };
-func.apply('Beach'); //Beach is beautiful
+func.apply('Beach'); 
 
 function Developer(skill) {
   this.skill = skill;
@@ -20,7 +20,7 @@ function Developer(skill) {
   }
 }
 let john = new Developer('Ruby');
-john.says(); //Ruby rocks!
+john.says(); 
 
 function Developer(skill) {
   this.skill = skill;
@@ -30,5 +30,5 @@ function Developer(skill) {
 }
 let john = new Developer('Ruby');
 let func = john.says;
-func();// undefined rocks!
+func();
 
